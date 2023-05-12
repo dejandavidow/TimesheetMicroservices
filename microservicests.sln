@@ -1,0 +1,63 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CategoriesService", "CategoriesService", "{691C7FA6-D1A4-447B-A11E-012F376A860E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientsService", "ClientsService", "{0E6538DA-8F59-4B8C-819C-538309FAA78C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MembersService", "MembersService", "{E8E02F59-5520-46CE-8FB2-1BD2A68AFB75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectsService", "ProjectsService", "{C03795BB-4874-48D2-9804-D722234AC68A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimesheetsService", "TimesheetsService", "{409F6A86-5942-49E2-B349-FFBDEBE3C355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "categoriesapi", "categoriesapi\categoriesapi.csproj", "{24F2C058-046F-48EF-B5F8-8598BCF7035E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clientsapi", "clientsapi\clientsapi.csproj", "{C5D99ED0-44AF-49C0-9F0D-E5E7896E8378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "membersapi", "membersapi\membersapi.csproj", "{905F033B-B10B-4E37-98B3-14C1EF16749B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projectsapi", "projectsapi\projectsapi.csproj", "{EA8254A3-2868-4EE9-8BF5-5BA525F7018C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "timesheetsapi", "timesheetsapi\timesheetsapi.csproj", "{64D130E4-37C1-4D6F-9191-BCD02629EFE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24F2C058-046F-48EF-B5F8-8598BCF7035E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F2C058-046F-48EF-B5F8-8598BCF7035E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F2C058-046F-48EF-B5F8-8598BCF7035E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F2C058-046F-48EF-B5F8-8598BCF7035E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D99ED0-44AF-49C0-9F0D-E5E7896E8378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D99ED0-44AF-49C0-9F0D-E5E7896E8378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D99ED0-44AF-49C0-9F0D-E5E7896E8378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D99ED0-44AF-49C0-9F0D-E5E7896E8378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905F033B-B10B-4E37-98B3-14C1EF16749B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905F033B-B10B-4E37-98B3-14C1EF16749B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905F033B-B10B-4E37-98B3-14C1EF16749B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905F033B-B10B-4E37-98B3-14C1EF16749B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8254A3-2868-4EE9-8BF5-5BA525F7018C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8254A3-2868-4EE9-8BF5-5BA525F7018C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8254A3-2868-4EE9-8BF5-5BA525F7018C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8254A3-2868-4EE9-8BF5-5BA525F7018C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D130E4-37C1-4D6F-9191-BCD02629EFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D130E4-37C1-4D6F-9191-BCD02629EFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D130E4-37C1-4D6F-9191-BCD02629EFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D130E4-37C1-4D6F-9191-BCD02629EFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA8254A3-2868-4EE9-8BF5-5BA525F7018C} = {C03795BB-4874-48D2-9804-D722234AC68A}
+		{64D130E4-37C1-4D6F-9191-BCD02629EFE5} = {409F6A86-5942-49E2-B349-FFBDEBE3C355}
+		{905F033B-B10B-4E37-98B3-14C1EF16749B} = {E8E02F59-5520-46CE-8FB2-1BD2A68AFB75}
+		{C5D99ED0-44AF-49C0-9F0D-E5E7896E8378} = {0E6538DA-8F59-4B8C-819C-538309FAA78C}
+		{24F2C058-046F-48EF-B5F8-8598BCF7035E} = {691C7FA6-D1A4-447B-A11E-012F376A860E}
+	EndGlobalSection
+EndGlobal
